@@ -79,3 +79,7 @@ end
 def turn_symbol_into_string(sym)
   sym.to_s
 end
+
+def average_of_array(array)
+  array.inject(:+) / array.count
+end
