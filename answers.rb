@@ -84,3 +84,22 @@ def average_of_array(array)
   result = array.inject(:+) / array.count.to_f
   result.round
 end
+
+def get_elements_until_greater_than_five(array)
+  results = []
+  array.each do |x|
+    break if x > 5
+    results << x
+  end
+  results
+end
+
+
+
+
+
+
+
+
+
+
