@@ -128,6 +128,9 @@ def format_date_nicely(datetime)
   datetime.strftime("%d/%m/%Y")
 end
 
+def get_domain_name_from_email_address(email)
+  /(?<=@)(.+?)(?=\.)/.match(email)[0]
+end
 
 
 
