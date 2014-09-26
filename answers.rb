@@ -26,3 +26,7 @@ def all_elements_except_first_3(array)
   array.slice!(0,3)
   array
 end
+
+def add_element_to_beginning_of_array(array, new_element)
+  array.unshift(new_element)
+end
