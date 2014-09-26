@@ -120,6 +120,10 @@ def round_up_number(number)
   number.ceil
 end
 
+def round_down_number(number)
+  number.floor
+end
+
 
 
 
