@@ -72,3 +72,6 @@ def total_of_array(array)
   array.inject(:+)
 end
 
+def double_array(array)
+  array + array
+end
