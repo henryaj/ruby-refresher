@@ -21,3 +21,8 @@ end
 def every_possible_pairing_of_students(array)
   array.combination(2)
 end
+
+def all_elements_except_first_3(array)
+  array.slice!(0,3)
+  array
+end
