@@ -75,3 +75,7 @@ end
 def double_array(array)
   array + array
 end
+
+def turn_symbol_into_string(sym)
+  sym.to_s
+end
