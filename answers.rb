@@ -57,5 +57,3 @@ def number_of_elements_that_are_palindromes(array)
   reverse = array.map { |x| x.reverse }
   (array & reverse).count
 end
-
-
