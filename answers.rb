@@ -81,5 +81,8 @@ def turn_symbol_into_string(sym)
 end
 
 def average_of_array(array)
-  array.inject(:+) / array.count
+  result = array.inject(:+) / array.count.to_f
+  result.round
 end
+
+
