@@ -52,3 +52,10 @@ def separate_array_into_even_and_odd_numbers(array)
   even = array.select { |x| x.even? }
   [even, odd]
 end
+
+def number_of_elements_that_are_palindromes(array)
+  reverse = array.map { |x| x.reverse }
+  (array & reverse).count
+end
+
+
