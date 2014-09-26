@@ -57,3 +57,10 @@ def number_of_elements_that_are_palindromes(array)
   reverse = array.map { |x| x.reverse }
   (array & reverse).count
 end
+
+def shortest_word_in_array(array)
+  array.sort! { |x,y| x.length <=> y.length }
+  array.first
+end
+
+
