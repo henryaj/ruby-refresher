@@ -94,6 +94,11 @@ def get_elements_until_greater_than_five(array)
   results
 end
 
+def get_all_letters_in_array_of_words(array)
+  letters = []
+  array.each { |x| letters << x.split("")}
+  letters.flatten.sort
+end
 
 
 
