@@ -45,3 +45,10 @@ end
 def make_numbers_negative(num)
   -(num.abs)
 end
+
+def separate_array_into_even_and_odd_numbers(array)
+  odd, even = [], []
+  odd = array.select { |x| x.odd? }
+  even = array.select { |x| x.even? }
+  [even, odd]
+end
