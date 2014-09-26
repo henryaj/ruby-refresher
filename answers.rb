@@ -84,5 +84,3 @@ def average_of_array(array)
   result = array.inject(:+) / array.count.to_f
   result.round
 end
-
-
