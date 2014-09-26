@@ -30,3 +30,9 @@ end
 def add_element_to_beginning_of_array(array, new_element)
   array.unshift(new_element)
 end
+
+def array_sort_by_last_letter_of_word(array)
+  array.map! { |x| x.reverse }
+  array.sort!
+  array.map! { |x| x.reverse }
+end
