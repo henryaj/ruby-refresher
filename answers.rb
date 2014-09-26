@@ -106,6 +106,12 @@ def swap_keys_and_values_in_a_hash(hash)
   result
 end
 
+def add_together_keys_and_values(hash)
+  result = 0
+  hash.each_pair { |key, value| result += key + value }
+  result
+end
+
 
 
 
