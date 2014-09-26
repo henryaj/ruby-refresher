@@ -132,6 +132,14 @@ def get_domain_name_from_email_address(email)
   /(?<=@)(.+?)(?=\.)/.match(email)[0]
 end
 
+def titleize_a_string(string)
+  words = string.split(" ")
+  words.each_with_index do |word, index|
+    next if word == "the" or word == "and" unless index == 0
+    word.gsub!(/\b./) { |firstletter| firstletter.upcase }
+  end
+  words.join(" ")
+end
 
 
 
