@@ -55,7 +55,7 @@ describe 'the Friday test :)' do
     expect(n).to eq ['puma', 'maker', 'sky']
   end
 
-  fit 'get_first_half_of_string' do
+  specify 'get_first_half_of_string' do
     a = get_first_half_of_string 'banana'
     b = get_first_half_of_string 'apple'
     c = get_first_half_of_string 'dogglezz'
@@ -65,7 +65,7 @@ describe 'the Friday test :)' do
     expect(c).to eq 'dogg'
   end
 
-  specify 'make_numbers_negative' do
+  fit 'make_numbers_negative' do
     a = make_numbers_negative 5
     b = make_numbers_negative -7
 

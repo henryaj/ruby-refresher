@@ -41,3 +41,7 @@ def get_first_half_of_string(string)
   x = (string.length / 2.0).ceil
   string[0...x]
 end
+
+def make_numbers_negative(num)
+  -(num.abs)
+end
