@@ -36,3 +36,8 @@ def array_sort_by_last_letter_of_word(array)
   array.sort!
   array.map! { |x| x.reverse }
 end
+
+def get_first_half_of_string(string)
+  x = (string.length / 2.0).ceil
+  string[0...x]
+end
