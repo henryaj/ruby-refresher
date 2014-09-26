@@ -100,6 +100,12 @@ def get_all_letters_in_array_of_words(array)
   letters.flatten.sort
 end
 
+def swap_keys_and_values_in_a_hash(hash)
+  result = {}
+  hash.each_pair { |key, value| result[value] = key }
+  result
+end
+
 
 
 
