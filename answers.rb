@@ -124,7 +124,9 @@ def round_down_number(number)
   number.floor
 end
 
-
+def format_date_nicely(datetime)
+  datetime.strftime("%d/%m/%Y")
+end
 
 
 
