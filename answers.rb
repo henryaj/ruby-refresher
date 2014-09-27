@@ -145,6 +145,10 @@ def get_upper_limit_of(nums)
   nums.sort.pop
 end
 
+def is_a_3_dot_range?(range)
+  range.exclude_end?
+end
+
 
 
 
