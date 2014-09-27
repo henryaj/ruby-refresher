@@ -154,6 +154,10 @@ def word_count_a_file(filename)
   text.count
 end
 
+def call_method_from_string(string)
+  eval(string)
+end
+
 
 
 
