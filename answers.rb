@@ -149,6 +149,11 @@ def is_a_3_dot_range?(range)
   range.exclude_end?
 end
 
+def word_count_a_file(filename)
+  text = File.read(filename).split(" ")
+  text.count
+end
+
 
 
 
