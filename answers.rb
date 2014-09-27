@@ -141,6 +141,10 @@ def titleize_a_string(string)
   words.join(" ")
 end
 
+def get_upper_limit_of(nums)
+  nums.sort.pop
+end
+
 
 
 
