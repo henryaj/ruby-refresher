@@ -1,6 +1,6 @@
 # Ruby Refresher
 
-At this point, we've had a couple of weeks away from Ruby propery – getting  to grips with things like JavaScript, CoffeeScript, and node.js.
+At this point, we've had a couple of weeks away from Ruby proper – getting to grips with things like JavaScript, CoffeeScript, and node.js.
 
 Here, we're given some Ruby challenges to solve. I think I had some elegant solutions to some of these problems – and after a fornight of fighting with JavaScript testing frameworks, this challenge was a joy.
 
