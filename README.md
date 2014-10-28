@@ -13,4 +13,4 @@ Here, we're given some Ruby challenges to solve. I think I had some elegant solu
 
 ### Running the tests
 
-Clone the repo and run `rspec` from the root directory to see how well I did.
+Clone the repo and run `rspec questions_spec.rb` from the root directory to see how well I did.
